@@ -33,7 +33,7 @@ RUN set -x && \
 FROM ubuntu:22.04
 
 #自行更改项目
-LABEL org.opencontainers.image.source="https://github.com/justlagom/kbne"
+LABEL org.opencontainers.image.source="https://github.com/justlagom/koyebne"
 
 # 定义环境变量uuid
 #定义环境变量项目域名用于保活
