@@ -19,6 +19,8 @@
 
 ### 步骤 1: 准备环境变量
 
+## koyebne/app/xy/config.json-可选择手搓其他xray配置
+
 在部署到 Koyeb 之前，您需要设置核心的代理配置参数，uuid，decryption，encryption，path等等，也可手搓其他xray配置文件。
 
 | 变量名 | 描述 | 示例值 |
