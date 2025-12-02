@@ -20,12 +20,15 @@
 ### 步骤 1: 准备环境变量
 
 ## koyebne/app/xy/config.json-可选择手搓其他xray配置
+默认节点样板
+vless://%E8%87%AA%E5%AE%9A%E4%B9%89%E5%8F%98%E9%87%8FUUID@项目域名:443?encryption=mlkem768x25519plus.native.0rtt.fRLKjkBNx1N6ceiqcqilb46WNj4yvl4SgXklAFkvNhE&flow=xtls-rprx-vision&security=tls&sni=%E9%A1%B9%E7%9B%AE%E5%9F%9F%E5%90%8D&fp=chrome&alpn=h2&insecure=0&allowInsecure=0&type=xhttp&path=%2Fb3a053a4&mode=auto#DE%2FUS%20ENC-Vision-Xhttp%EF%BC%88koyeb%EF%BC%89
 
-在部署到 Koyeb 之前，您需要设置核心的代理配置参数，uuid，decryption，encryption，path等等，也可手搓其他xray配置文件。
+在部署到 Koyeb 之前，您需要设置核心的代理配置参数**uuid**，也可手搓其他xray配置文件。
 
 | 变量名 | 描述 | 示例值 |
 | :--- | :--- | :--- |
-| **`ENC_CONFIG`** | 您的代理配置信息，通常是一个 JSON 字符串，包含 UUID、Path、端口等信息。 | `{"uuid": "...", "path": "/your_path", "port": 8080}` |
+| **`UUID`** | 自定义uuid-必需。 | `5936acb6-e65e-4631-bedf-ce723a1a375d` |
+| **`DOMAIN`** | 域名-非必需。 | `xxx.koyeb.app` |
 
 ### 步骤 2: 一键部署
 
