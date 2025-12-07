@@ -2,12 +2,6 @@
   "log": {
     "loglevel": "warning"
   },
-  "dns": {
-    "servers": [
-      "1.1.1.1",
-      "8.8.8.8"
-    ]
-  },
   "inbounds": [
     {
       "listen": null,
@@ -39,25 +33,12 @@
           "scStreamUpServerSecs": "20-80",
           "xPaddingBytes": "100-1000"
         }
-      },
-      "sniffing": {
-        "enabled": true,
-        "destOverride": [
-          "http",
-          "tls"
-        ]
       }
     }
   ],
-  "routing": {
-    "rules": []
-  },
   "outbounds": [
     {
-      "protocol": "freedom",
-      "settings": {
-        "domainStrategy":"UseIP"
-      }
+      "protocol": "freedom"
     }
   ]
 }
