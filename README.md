@@ -1,10 +1,10 @@
 -----
-# 🚀 Koyebne - ENC+Vioion-WS-TLS-CDN 代理节点
+# 🚀 Koyebne - ENC+Vioion-WS-ARGO 代理节点
 
 [](https://github.com/justlagom/koyebne)
 [](https://www.google.com/search?q=https://app.koyeb.com/deploy%3Fname%3Dkoyebne%26type%3Dgit%26repository%3Dgithub.com/justlagom/koyebne%26branch%3Dmain%26env%5BENC_CONFIG%5D%3D)
 
-一个部署在 [Koyeb Serverless Platform](https://www.koyeb.com/) 上的 **ENC+Vioion-WS** 代理节点项目，旨在提供一个稳定、快速的代理服务。
+一个部署在 [Koyeb Serverless Platform](https://www.koyeb.com/) 上的 **ENC+Vioion-WS-ARGO** 代理节点项目，旨在提供一个稳定、快速的代理服务。
 
 该项目利用 Koyeb 的持续运行能力，并通过部署在 Cloudflare Workers 的 `worker.js` 文件实现远程登录保活，确保服务的持久可用性。
 
